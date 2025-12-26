@@ -4,16 +4,16 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
-#include "PlayerCharacterBase.generated.h"
+#include "CharacterBase.generated.h"
 
 UCLASS()
-class RPG_UNTITLED_API APlayerCharacterBase : public ACharacter
+class RPG_UNTITLED_API ACharacterBase : public ACharacter
 {
 	GENERATED_BODY()
 
 public:
 	// Sets default values for this character's properties
-	APlayerCharacterBase();
+	ACharacterBase();
 
 protected:
 	// Called when the game starts or when spawned
